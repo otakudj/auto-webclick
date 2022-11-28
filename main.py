@@ -51,9 +51,9 @@ if __name__ == '__main__':
             if btn.text == '登 录':
                 flag = ind
 
-        if flag == -1:
-            logger.info('logged')
-        else:
+        # if flag == -1:
+        #     logger.info('logged')
+        if flag != -1:
             btn = btns[flag]
             logger.warning('relogging ... ')
 
